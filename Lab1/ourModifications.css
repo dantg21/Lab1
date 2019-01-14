@@ -1,4 +1,4 @@
-/* Type your name here:                  */
+/* Type your name here: George Dant */
 
 /* Used by elements with a class of hidden. No need to change. */
 .hidden {
@@ -8,9 +8,20 @@
 /* Insert key-value pairs in the properties below, according to README.md */
 #main {
 
+	margin: 10%;
+	margin: 20%;
+
+	border: 1px solid gray;
+	padding: 2ems;
+
 }
 
 h3 {
+
+	align-content: center;
+	font-size-adjust: 200%;
+
+	border-bottom: 2px dotted gray;
 
 }
 
