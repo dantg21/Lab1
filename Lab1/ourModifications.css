@@ -7,48 +7,82 @@
 
 /* Insert key-value pairs in the properties below, according to README.md */
 #main {
-
 	margin: 10%;
 	margin: 20%;
-
 	border: 1px solid gray;
-	padding: 2ems;
-
+	padding: 2em;
 }
 
 h3 {
-
 	align-content: center;
-	font-size-adjust: 200%;
-
+	font-size: 200%;
 	border-bottom: 2px dotted gray;
-
 }
 
 #main li {
-
+	font-size: 115%;
+	padding: .2em;
+	list-style-type: circle;
+	width: 100%;
+	margin: 3px;
+	margin: 0px;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 
 #main li:hover {
-
+	background-color: #AEE;
 }
 
 li .remove {
-
+	float: right;
+	line-height: .9em;
 }
 
 ul {
-
+	padding: 0;
 }
 
 .edit {
-
+	width: 100%;
 }
 
 input[type="button"] {
-
+	border: 2px solid black;
+	background-color: green;
+	border-radius: 10px;
 }
 
 input[type="button"]:hover {
+	background-color: blue;
+	border-color: purple;
+}
 
+table {
+	margin: 10%;
+	margin: 20%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: .5em;
+	border: 1px solid black;
+}
+
+th {
+	background-color: gray;
+}
+
+td.urgent {
+	background-color: red;
+	font-weight: bold;
+}
+
+td.completed {
+	font-style:  italic;
+	background-color: green;
+}
+td:hover {
+	background-color: #AEE;
 }
