@@ -11,6 +11,8 @@ const MILLIS_FOR_NEW_CIRCLE = 2000;  // 2 seconds
 const MILLIS_CIRCLE_ACTIVE  = 2500;  // 2.5 seconds
 const SVGNS = "http://www.w3.org/2000/svg";
 
+console.log('the');
+
 function checkGame() {
    let game = new Game(POINTS_GOAL);
    if (game.points !== 0) {
